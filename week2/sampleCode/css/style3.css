@@ -1,0 +1,12 @@
+p {
+    background-color: white;
+    color: black;
+    }
+    .withstyle {
+    background-color: olive;
+    color: navy;
+    }
+    .warn {
+    background-color: yellow;
+    color: red;
+    }
