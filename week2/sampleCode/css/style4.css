@@ -10,3 +10,12 @@ p {
     background-color: yellow;
     color: red;
     }
+.border {
+    border: 3px solid black;
+}
+#mainpoint
+{
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
