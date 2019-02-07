@@ -1,0 +1,23 @@
+
+
+
+6. Which is the correct CSS syntax?
+
+ {body:color=black;}
+ {body;color:black;}
+ body {color: black;}
+ body:color=black;
+
+
+ What is the correct HTML for adding a background color?
+
+ <body bg="yellow">
+ <body style="background-color:yellow;">
+ <background>yellow</background>
+
+  Which button class is used to create a large button?
+
+ .btn-large
+ .btn-l
+ .btn-lg
+ .btn-xl
