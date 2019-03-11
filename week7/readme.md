@@ -1,3 +1,3 @@
 # EWD 2019
 
-Week 7 Example. Please run ``npm install`` before using.h
+Enterprise Web Dev examples from lectures. Please run ``npm install`` before using.
