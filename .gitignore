@@ -37,7 +37,6 @@ node_modules/
 jspm_packages/
 
 #uncompleted labs
-node-lab3/
 
 # TypeScript v1 declaration files
 typings/
