@@ -1,7 +1,8 @@
 import express from 'express';
 import {
   contacts
-} from './contacts';
+}
+from './contacts';
 
 const router = express.Router();
 
@@ -18,8 +19,7 @@ router.get('/:id', (req, res) => {
   }).indexOf(key);
   console.log(contacts[index])
   if (index !== -1) {
-    res.status(200).json(contacts[index]
-    );
+    res.status(200).json(contacts[index]);
   } else {
     res.status(400).send({
       message: 'Unable to find Contact in request. No Contact Found in body'
