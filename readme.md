@@ -1,12 +1,12 @@
-# Enterprise Web Dev 2019
+# Web App Dev 2 2019
 
-Code Examples from Enterprise Web Dev module on the M.Sc. in Enterprise Software Systems, Waterford Institute of Technology.
+Code Examples from Web App Dev 2 module, Waterford Institute of Technology.
 
 ## Installation and useage
 
 Run ``npm install`` in the root of the cloned directory to install dependencies.
 
-The codes examples used in lectures are contained in the relevent weekly directories.
+The codes examples used in lectures are contained in the relevant weekly directories.
 
 To execute an example script(e.g. example-script.js), use ``npx babel-node example-script.js`` at the command line in the relevant example directory.
 
