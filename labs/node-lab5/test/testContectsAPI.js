@@ -18,7 +18,7 @@ describe('Contacts API test', function () {
                 // HTTP status should be 200
                 res.should.have.property('status').equal(200);
                 done();
-            }).close();
+            });
     });
 
     // test #2 add a contact
@@ -38,7 +38,7 @@ describe('Contacts API test', function () {
                 res.body.should.have.property('_id');
                 res.body.name.should.equal('Contact 99');
                 done();
-            }).close();
+            });
     });
 
 
