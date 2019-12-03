@@ -1,0 +1,46 @@
+{
+  "name": "node-lab1",
+  "version": "1.0.0",
+  "description": "node lab 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore hackerNews/* --exec babel-node index.js",
+    "unit-test": "cross-env NODE_ENV=test mocha './api/**/tests/*.js --require babel-core/register --require babel-polyfill --exit",
+    "test": "cross-env NODE_ENV=test mocha --require babel-core/register --require babel-polyfill  --exit",
+    "pretest": "eslint *.js ./api/contacts/*.js ./test/*.js"
+  },
+  "author": "fxwalsh",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.15.1",
+    "eslint-config-google": "^0.12.0",
+    "eslint-plugin-react": "^7.12.4",
+    "mocha": "^6.2.2",
+    "mockgoose": "^8.0.4",
+    "nodemon": "^1.18.10",
+    "should": "^13.2.3",
+    "sinon": "^7.5.0",
+    "sinon-test": "^2.4.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cross-env": "^6.0.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-async-handler": "^1.1.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.19",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "save-dev": "0.0.1-security"
+  }
+}
